@@ -1,9 +1,9 @@
-package com.robinhood.spark.animation;
+package com.knobtviker.spark.animation;
 
 import android.animation.Animator;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
-import com.robinhood.spark.SparkView;
+import com.knobtviker.spark.SparkView;
 
 /**
  *  This interface is for animate SparkView when it changes

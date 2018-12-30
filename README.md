@@ -25,7 +25,7 @@ Spark is setup with reasonable default values out of the box. Just add a `SparkV
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.robinhood.spark.SparkView
+    <com.knobtviker.spark.SparkView
         android:id="@+id/sparkview"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
@@ -75,7 +75,7 @@ sparkView.setLineColor(getColor(R.color.brand_color_primary));
 
 In your layout xml:
 ```xml
-    <com.robinhood.spark.SparkView
+    <com.knobtviker.spark.SparkView
         android:id="@+id/sparkview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -115,7 +115,7 @@ to display additional detail information about the point the user is currently s
 
 Enable scrubbing via xml:
 ```xml
-<com.robinhood.spark.SparkView
+<com.knobtviker.spark.SparkView
     ...
     app:spark_scrubEnabled="true" />
 ```
@@ -186,23 +186,5 @@ Download
 Gradle:
 
 ```groovy
-implementation 'com.robinhood.spark:spark:1.2.0'
+implementation 'com.knobtviker.spark:spark:1.2.1'
 ```
-
-
-License
---------
-
-    Copyright 2016 Robinhood Markets, Inc.
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.

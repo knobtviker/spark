@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.robinhood.spark;
+package com.knobtviker.spark;
 
 import android.database.DataSetObservable;
 import android.database.DataSetObserver;
 import android.graphics.RectF;
-import android.support.annotation.NonNull;
-import android.support.annotation.VisibleForTesting;
+import androidx.annotation.NonNull;
+import androidx.annotation.VisibleForTesting;
 
 /**
  * A simple adapter class - evenly distributes your points along the x axis, does not draw a base

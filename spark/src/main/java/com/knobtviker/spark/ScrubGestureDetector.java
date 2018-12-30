@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.robinhood.spark;
+package com.knobtviker.spark;
 
 import android.os.Handler;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.view.MotionEvent;
 import android.view.View;
 

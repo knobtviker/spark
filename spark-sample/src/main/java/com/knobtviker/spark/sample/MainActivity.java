@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.robinhood.spark.sample;
+package com.knobtviker.spark.sample;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.AdapterView;
@@ -28,10 +28,10 @@ import android.widget.CompoundButton;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import com.robinhood.spark.SparkAdapter;
-import com.robinhood.spark.SparkView;
-import com.robinhood.spark.animation.LineSparkAnimator;
-import com.robinhood.spark.animation.MorphSparkAnimator;
+import com.knobtviker.spark.SparkAdapter;
+import com.knobtviker.spark.SparkView;
+import com.knobtviker.spark.animation.LineSparkAnimator;
+import com.knobtviker.spark.animation.MorphSparkAnimator;
 
 import java.util.Random;
 

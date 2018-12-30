@@ -1,4 +1,4 @@
-package com.robinhood.spark;
+package com.knobtviker.spark;
 
 import org.junit.Test;
 

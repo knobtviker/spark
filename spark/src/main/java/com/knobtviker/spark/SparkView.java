@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.robinhood.spark;
+package com.knobtviker.spark;
 
 import android.animation.Animator;
 import android.annotation.TargetApi;
@@ -28,17 +28,17 @@ import android.graphics.Path;
 import android.graphics.RectF;
 import android.os.Build;
 import android.os.Handler;
-import android.support.annotation.ColorInt;
-import android.support.annotation.IntDef;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.ColorInt;
+import androidx.annotation.IntDef;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewConfiguration;
 
-import com.robinhood.spark.animation.LineSparkAnimator;
-import com.robinhood.spark.animation.SparkAnimator;
+import com.knobtviker.spark.animation.LineSparkAnimator;
+import com.knobtviker.spark.animation.SparkAnimator;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

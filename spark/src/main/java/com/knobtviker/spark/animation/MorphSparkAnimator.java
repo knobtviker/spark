@@ -1,15 +1,14 @@
-package com.robinhood.spark.animation;
+package com.knobtviker.spark.animation;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.TimeInterpolator;
 import android.animation.ValueAnimator;
 import android.graphics.Path;
-import android.support.annotation.IntRange;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.IntRange;
+import androidx.annotation.Nullable;
 
-import com.robinhood.spark.SparkView;
+import com.knobtviker.spark.SparkView;
 
 import java.util.List;
 

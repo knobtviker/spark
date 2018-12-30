@@ -1,0 +1,39 @@
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'com.knobtviker'
+
+install {
+    repositories.mavenInstaller {
+        pom {
+            project {
+                packaging 'aar'
+                groupId 'com.knobtviker'
+                artifactId 'spark'
+
+                name 'spark'
+                description 'Spark is a simple Android library that takes a series of x,y points at any scale and draws them as a sparkline chart.'
+                url 'https://github.com/knobtviker/spark'
+
+                licenses {
+                    license {
+                        name 'MIT'
+                        url 'https://github.com/knobtviker/spark/blob/master/LICENSE'
+                    }
+                }
+                developers {
+                    developer {
+                        id 'knobtviker'
+                        name 'Bojan Komljenović'
+                        email 'knobtviker@gmail.com'
+                    }
+                }
+                scm {
+                    connection 'https://github.com/knobtviker/spark.git'
+                    developerConnection 'https://github.com/knobtviker/spark.git'
+                    url 'https://github.com/knobtviker/spark'
+
+                }
+            }
+        }
+    }
+}

@@ -1,4 +1,4 @@
-package com.robinhood.spark;
+package com.knobtviker.spark;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

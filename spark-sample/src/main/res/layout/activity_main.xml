@@ -12,7 +12,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity">
 
-    <com.robinhood.spark.SparkView
+    <com.knobtviker.spark.SparkView
         android:id="@+id/sparkview"
         android:layout_width="match_parent"
         android:layout_height="200dp"
